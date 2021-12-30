@@ -11,7 +11,7 @@ import {
 } from "@heroicons/react/outline";
 import { signIn, signOut, useSession } from "next-auth/react";
 import { useRecoilState } from "recoil";
-import { modalState } from "../atoms/ModalAtom";
+import { modalState } from "../atoms/modalAtom";
 import { useRouter } from "next/router";
 
 function Header() {
